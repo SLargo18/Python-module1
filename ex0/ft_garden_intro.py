@@ -3,7 +3,7 @@ def main():
     height_cm = 25
     age_days = 30
 
-    print("=== Welcome yo my garden ===")
+    print("=== Welcome to my garden ===")
     print("Plant:", name)
     print("Height:", height_cm, "cm")
     print("Age:", age_days, "days")
