@@ -1,7 +1,13 @@
-if __name__ == "__main__":
-    print("=== Welcome to My Garden ===")
+def main():
     name = "Rose"
-    height = 25
-    age = 30
-    print(f"Plant: {name}", f"\nHeight: {height}cm", f"\nAge: {age} Days")
+    height_cm = 25
+    age_days = 30
+
+    print("=== Welcome yo my garden ===")
+    print("Plant:", name)
+    print("Height:", height_cm, "cm")
+    print("Age:", age_days, "days")
     print("\n=== End of program ===")
+
+if __name__ == "__main__":
+    main()
