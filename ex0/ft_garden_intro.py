@@ -9,5 +9,6 @@ def main():
     print("Age:", age_days, "days")
     print("\n=== End of program ===")
 
+
 if __name__ == "__main__":
     main()
