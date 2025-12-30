@@ -28,7 +28,7 @@ class SecurePlant:
             print(f"Height updated: {value}cm [OK]")
 
     def get_age(self) -> int:
-        """securley acces the plant's age"""
+        """securley access the plant's age"""
         return self._age
 
     def set_age(self, value: int) -> None:
