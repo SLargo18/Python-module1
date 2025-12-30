@@ -1,10 +1,16 @@
+#!/usr/bin/env python3
+"""Module to define the basic Plant class and show its info."""
+
+
 class Plant:
+    """Plant with basic attributes."""
     def __init__(self, name, height, age):
         self.name = name
         self.height = height
         self.age = age
 
     def show_info(self):
+        """Print the plant information"""
         print(f"{self.name}: {self.height}cm, {self.age} days old")
 
 

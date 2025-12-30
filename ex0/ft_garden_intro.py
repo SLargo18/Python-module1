@@ -1,4 +1,9 @@
+#!/usr/bin/env python3
+"""Module to print a simple welcome message for the garden."""
+
+
 def main():
+    """Initialize variables and print garden welcome information."""
     name = "Rose"
     height_cm = 25
     age_days = 30
